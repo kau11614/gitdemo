@@ -11,7 +11,8 @@ package studentlist;
  */
 public class Student {
     private String name;
-
+    Date dob;
+    String address;
     /**
      * @return the name
      */
