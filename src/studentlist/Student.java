@@ -13,8 +13,8 @@ import java.util.Date;
  */
 public class Student {
     private String name;
-    Date dob;
-    String address;
+    private Date dob;
+    private String address;
     /**
      * @return the name
      */
@@ -27,6 +27,34 @@ public class Student {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @return the dob
+     */
+    public Date getDob() {
+        return dob;
+    }
+
+    /**
+     * @param dob the dob to set
+     */
+    public void setDob(Date dob) {
+        this.dob = dob;
+    }
+
+    /**
+     * @return the address
+     */
+    public String getAddress() {
+        return address;
+    }
+
+    /**
+     * @param address the address to set
+     */
+    public void setAddress(String address) {
+        this.address = address;
     }
 
 }
