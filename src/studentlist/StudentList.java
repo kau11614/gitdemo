@@ -8,8 +8,8 @@ package studentlist;
 import java.util.Scanner;
 
 /**
- *
- * @author Megha Patel
+ *this class provides student list through users
+ * @author megha patel,2022
  */
 public class StudentList {
 
